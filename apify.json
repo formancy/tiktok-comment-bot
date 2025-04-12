@@ -1,0 +1,9 @@
+{
+  "name": "tiktok-comment-bot",
+  "version": "0.1",
+  "main": "main.js",
+  "buildTag": "latest",
+  "env": {
+    "APIFY_DEFAULT_KEY_VALUE_STORE_ID": "default"
+  }
+}
