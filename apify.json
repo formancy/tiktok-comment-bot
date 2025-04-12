@@ -3,6 +3,7 @@
   "version": "0.1",
   "main": "main.js",
   "buildTag": "latest",
+  "buildScript": "./apify_project/BUILD.sh",
   "env": {
     "APIFY_DEFAULT_KEY_VALUE_STORE_ID": "default"
   }
