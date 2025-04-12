@@ -2,6 +2,7 @@
   "name": "tiktok-comment-bot",
   "version": "1.0.0",
   "description": "TikTok comment automation for casino lead generation",
+  "type": "module",
   "scripts": {
     "start": "node main.js"
   },
