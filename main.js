@@ -1,6 +1,8 @@
 const { chromium } = require('playwright');
 
-Apify.main(async () => {
+import { Actor } from 'apify';
+
+Actor.main(async () => {
     const input = await Apify.getInput();
     const browser = await chromium.launch({ headless: false });
     const page = await browser.newPage();
