@@ -1,11 +1,13 @@
 {
   "name": "tiktok-comment-bot",
   "version": "1.0.0",
-  "dependencies": {
-    "playwright": "^1.40.0",
-    "apify": "^3.0.0"
-  },
+  "description": "TikTok comment automation for casino lead generation",
   "scripts": {
     "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.0.0",
+    "playwright": "^1.40.0"
   }
 }
+
